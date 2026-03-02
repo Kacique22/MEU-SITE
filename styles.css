@@ -132,18 +132,50 @@ header nav ul li a:hover {
 }
 
 @media (max-width: 1400px) {
+    header{
+        height: 100%;
+        max-height: 60px;
+    }
+    #navegação ul{
+        font-size: 40px;
+    }
+
     .geral {
         align-items: center;
         flex-direction: column;
+        padding-top: 80px;
     }
 
     .conteudo p{
         margin: 10px 5%;
         width: 90%;
+        font-size: 40px;
+    }
+
+    .conteudo h1{
+        font-size: 45px;
+    }
+
+    .conteudo h2{
+        font-size: 40px;
+    }
+
+    .conteudo img{
+        max-width: 600px;
+        width: 90%;
     }
 
     .lista-botao{
         position: static;
+        width: 100%;
+    }
+
+    .lista ul{
+        font-size: 40px;
+    }
+
+    .botao button{
+        max-width: 600px;
         width: 100%;
     }
 }
